@@ -76,3 +76,18 @@ Under the h2 the children of BodySection
 Tips:
 
 Rendering the following
+
+### 4. Specialization
+mandatory
+in task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js, create a new component named BodySectionWithMarginBottom. The component does not know its children. It should output the following:
+
+A div with the class bodySectionWithMargin
+Within the div, a BodySection element with the same props passed to bodySectionWithMargin
+in task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.css
+
+Set the style for the class bodySectionWithMargin with a margin bottom of 40px
+Import the styling into the BodySectionWithMarginBottom component
+Requirements:
+
+Make sure to define the propTypes for both props
+Do not repeat each props manually and use the spread operator
