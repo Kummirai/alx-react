@@ -91,3 +91,16 @@ Requirements:
 
 Make sure to define the propTypes for both props
 Do not repeat each props manually and use the spread operator
+
+### 5. Use the new components
+mandatory
+in task_3/dashboard/src/App/App.js, modify the App component:
+
+Wrap the CourseList component with the newly created BodySectionWithMarginBottom component. The title should be Course list
+Wrap the Login component with the newly created BodySectionWithMarginBottom component. The title should be Log in to continue
+Using the BodySection component, add a new block with the title News from the School. The component should contain a paragraph with some random text
+Repo:
+
+GitHub repository: alx-react
+Directory: 0x03-React_component
+File: task_3/dashboard/src/App/App.js
