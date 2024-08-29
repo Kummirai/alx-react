@@ -34,7 +34,7 @@ Requirements:
 - At this point, reloading the App should display the exact same page as the last task
 - The console in your browser should not show any error or warning
 
-## Handling Events
+## 2 Handling Events
 mandatory
 Create a new handing event
 
